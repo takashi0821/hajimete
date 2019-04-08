@@ -1,0 +1,255 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body{
+    font-family:  "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    }
+
+.header{
+    background-color: dimgray;
+    height: 53px;
+    width:100%;
+    color: white;
+    position:fixed;
+    top:0;
+    z-index: 10;
+    opacity:0.9;
+}
+
+
+.header-logo{
+  color:white;
+  display: inline-block;
+  line-height: 53px;
+   font-size: 30px;
+   margin-left:20px;
+   font-style:oblique;
+  font-family: 'Comic Sans MS',sans-serif;
+  cursor:pointer;
+ }
+
+ .btn:active{
+  filter:brightness(120%);
+ }
+
+.header-list{
+   float:right;
+   border-right:1px dotted white;
+   border-left:1px dotted white;
+}
+
+.header-list p{
+   float:left;
+   padding:15px 20px;
+  border-left:1px dotted white;
+}
+
+.header-list p:hover{
+    background-color:rgb(168, 168, 168);
+    cursor: pointer;
+}
+
+.main{
+  background-image: url("haikei.jpg");
+  height:584px ;
+}
+
+.main-logo{
+ text-align:center;
+ float:left;
+ padding-top:60px;
+ padding-left:300px;
+}
+
+.main-logo img{
+  width: 100%;
+   height:100%;
+}
+
+.container{
+  float:right;
+}
+
+.fukidashi{
+  margin-top:200px;
+  margin-right:40px;
+  width: 300px;
+  height: 92px;
+  line-height: 90px;
+ vertical-align: center;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background: #c20178;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow:4px 4px rgb(109, 109, 109);
+}
+
+.dosukoi img{
+  width:80%;
+  height:80%;
+}
+
+.ikarudosukoi img{
+  width:100%;
+  height:100%;
+}
+
+.image{
+  width: 260px;
+  height: 260px;
+  padding-left:70px;
+  padding-top:20px;
+}
+
+.dosukoi{
+  display:block;
+}
+
+.ikarudosukoi{
+  display: none;
+}
+
+.image:hover > .dosukoi{
+  display: none;
+}
+
+.image:hover > .ikarudosukoi{
+  display:block;
+}
+
+.link{
+    height:26px;
+    width:100%;
+}
+
+.link-btn{
+  text-align:center;
+  vertical-align:middle;
+  text-decoration:none;
+}
+
+.facebook {
+  float:right;
+  width:50%;
+  height:100%;
+  background-color: #3b5998;
+  color:white;
+  text-decoration:none;
+}
+
+.twitter {
+  float:left;
+  width:50%;
+  height:100%;
+  background-color: #55acee;
+  color:white;
+  text-decoration:none;
+}
+
+.sub{
+  background-color: beige;
+  height:540px;
+  padding:20px 100px;
+  }
+
+.sub-containts{
+border: 6px double #CCCCCC ;
+padding:20px;
+}
+
+.sub-sentences{
+float:left;
+}
+
+.sub-containts h1{
+ border-bottom:2px solid #CCCCCC;
+}
+
+.sub-sentence{
+  font-size:18px;
+  margin-top:16px;
+  margin-bottom:16px;
+}
+
+.sub-sentence2{
+   font-size:18px;
+  margin-bottom:16px;
+}
+
+.sub-sentence3{
+  font-weight:bold;
+  font-size:36px;
+   margin-bottom:16px;
+   color:#FF0461;
+   letter-spacing: 12px;
+}
+
+textarea{
+  width:300px;
+  height:40px;
+  border:#CCCCCC;
+}
+
+.buttun{
+  padding-bottom:20px;
+  margin-top:10px;
+}
+
+.contact-submit{
+  height:30px;
+  width:300px;
+  padding:0px;
+  cursor: pointer;
+}
+
+.kyoechan{
+  float:right;
+  width: 299px;
+  height:299px;
+  padding-right:150px;
+}
+
+.kyoechan img{
+  float:right;
+  width:100%;
+  height:100%;
+}
+
+.footer{
+   background-color: dimgray;
+    height: 60px;
+    color: white;
+}
+
+.footer-logo{
+  padding-left:8px;
+  padding-top:5px;
+  width:95px;
+  height:48px;
+  float:left;
+}
+
+.footer-logo img{
+  cursor: pointer;
+  width:100%;
+  height:100%;
+}
+
+.footer-name{
+  color:rgb(180, 180, 180);
+  float:right;
+  line-height:60px;
+  margin-right:25px;
+}
